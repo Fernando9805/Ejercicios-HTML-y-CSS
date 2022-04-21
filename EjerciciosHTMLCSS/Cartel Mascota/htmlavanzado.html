@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="htmlavanzado.css">
+    <title>Formularios</title>
+</head>
+<body id="body" >
+    <div>
+    <legend id="legend">Este es mi formulario </legend>
+    <fieldset>
+    <!--Formulario
+    nos sirve para recopilar informacion de nuestros usuarios
+
+Atributos importantes:
+- action es donde se va a enviar la información
+- method es el metodo de envio de la información
+cuando trabajamos con botones denyro de los formularios, debemos usar input del 
+tipo boton, sim trabajamos con botones fuera de, usamos la etiqueta button-->
+    <form action="datos.html"> <!--action="ruta o link"-->
+        <h2>Formulario</h2>
+        <label>Este es un boton simple</label>
+        <input type="button"> <!--este es un boton-->
+        <br>
+        <input type="checkbox"> <!--este es un checkbox-->
+        <br><br>
+        <label>Selecciona tu fecha de reservación</label>
+        <input type="date"> <!--Esta es una fecha-->
+        <br><br>
+        <label>Agrega aquí tu correo electrónico *</label>
+        <input type="email" placeholder="ejemplo@correo.com" required> <!--Este es un email-->
+        <br><br>
+        <label>Introduce tu password *</label>
+        <input type="password" required> <!--Este es una contrasena--> 
+        <br><br>
+        <label>Numero de personas *</label>
+        <input type="number" required> <!--Este es un numero-->
+        <br><br>
+        <input type="file"> <!--Este input es para enviar información-->
+        <br><br>
+        <input type="radio"> <!--este es un radio-->
+        <br><br>
+        <label>Este es un rango</label>
+        <input type="range"> <!--este es un rango-->
+        <br><br>
+        <label>Introduce tu numero de telefono *</label>
+        <input type="tel" placeholder="222 2222 222" required> <!--Este es un numero telefono-->
+        <br><br>
+        <input type="time"> <!--Esta es una hora-->
+        <br><br>
+        <input type="reset"> <!--este es un boton de envio-->
+        <br><br>
+        <input type="submit"> <!--Este es un boton de envio-->
+        <br><br>
+
+    </form>
+    <p>Los campos con * son obligatorios</p>
+</fieldset>
+
+</div>
+
+</body>
+</html>

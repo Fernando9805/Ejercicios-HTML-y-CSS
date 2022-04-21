@@ -1,0 +1,123 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px; font-weight: 600; line-height: 80px; color: black;
+    font-family: miFuente;
+    
+}
+
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    color:black;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+#hero{
+    background-color:rgba(255, 255, 255, 0.6);  
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 950px;
+    color:black;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center; 
+    
+}
+
+body{
+    background-color: #e7d658;
+}
+
+#kiko-slider{
+ font-family: sans-serif;
+ margin: auto;
+ background-color: #EDE734;
+ height: 500px;
+ max-height: 100%;
+ max-width: 600px;
+ width: 100%;
+ padding: 90px;
+ box-sizing: border-box;
+ border-radius: 20px;
+}
+
+#kiko-slider > ul, li {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+#kiko-slider > ul.slider{
+ position: relative;
+ max-width: 900px;
+ width: 100%;
+ height: 300px;
+}
+
+#kiko-slider > ul.slider h1{
+ position: absolute;
+ background-color: rgba(255, 255, 255, 0.6);
+ padding: 10px;
+ left: 50%;
+ top: 100px;
+ transform: translate(-50%, -50%);
+}
+
+#kiko-slider > ul.slider li {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   opacity: 0;
+   width: inherit;
+   height: inherit;
+   transition: opacity .5s;
+   background:#fff;
+}
+
+#kiko-slider > ul.slider li img{
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+}
+
+#kiko-slider > ul.slider li:first-child {
+   opacity: 1; /*Mostramos el primer <li>*/
+}
+
+#kiko-slider > ul.slider li:target {
+   opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider > .menu{
+ text-align: center;
+ margin: 20px;
+}
+
+#kiko-slider > .menu li{
+ display: inline-block;
+ text-align: center;
+}
+
+#kiko-slider > .menu li a{
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+ background-color: grey;
+ padding: 10px;
+ width: 20px;
+ height: 20px;
+ font-size: 20px;
+ border-radius: 100%;
+}
+
+
